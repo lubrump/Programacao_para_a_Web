@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=img1.0">
+    <title>Jogo da Velha</title>
+    <link rel="icon" href="Imagens/Pixel_art_little_frog.png">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="jogo_da_velha.css">
+</head>
+
+<body onload="pedirNomes()">
+    <div class="elementos">
+        <div class="cards-esquerda">
+            <img src="Imagens/Pixel_art_chat.png" alt="Chat">
+        </div>
+
+        <div class="cards-meio">
+            <div class="texto">
+                <h1 id="mensagem">
+                    Tic-Tac-Toe!
+                </h1>
+            </div>
+
+            <div class="cima">
+                <img id="1" src="/Imagens/Fundo_verde.png" alt="Img1" onclick="trocarImagem('1')">
+                <img id="2" src="/Imagens/Fundo_verde.png" alt="Img2" onclick="trocarImagem('2')">
+                <img id="3" src="/Imagens/Fundo_verde.png" alt="Img3" onclick="trocarImagem('3')">
+            </div>
+
+            <div class="meio">
+                <img id="4" src="/Imagens/Fundo_verde.png" alt="Img4" onclick="trocarImagem('4')">
+                <img id="5" src="/Imagens/Fundo_verde.png" alt="Img5" onclick="trocarImagem('5')">
+                <img id="6" src="/Imagens/Fundo_verde.png" alt="Img6" onclick="trocarImagem('6')">
+            </div>
+
+            <div class="baixo">
+                <img id="7" src="/Imagens/Fundo_verde.png" alt="Img7" onclick="trocarImagem('7')">
+                <img id="8" src="/Imagens/Fundo_verde.png" alt="Img8" onclick="trocarImagem('8')">
+                <img id="9" src="/Imagens/Fundo_verde.png" alt="Img9" onclick="trocarImagem('9')">
+            </div>
+        </div>
+
+        <div class="cards-direita">
+            <img src="Imagens/Pixel_art_frog.png" alt="Sapo">
+            <img src="Imagens/Pixel_art_pop_up.png" alt="Pop_up">
+        </div>
+    </div>
+    <script src="jogo_da_velha.js"></script>
+</body>
+
+</html>

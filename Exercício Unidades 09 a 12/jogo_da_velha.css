@@ -1,0 +1,85 @@
+:root {
+    --azul-esverdeado: #12ACAC;
+    --verde: #007950;
+    --verde-escuro: #024D2F;
+    --branco: #ffffff;
+}
+
+body {
+    background-color: var(--azul-esverdeado);
+    font-family: 'Pixelify Sans', sans-serif;
+    cursor: url('Imagens/Cursor_verde.png'), auto;
+}
+
+.elementos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(Imagens/Pixel_art_Background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75vw;
+    padding: 8vw;
+}
+
+.cards-meio img {
+    width: 6vw;
+    height: 6vw;
+    padding: 0.5vw;
+    box-shadow: 2px var(--verde-escuro);
+    border-radius: 1.5vw;
+}
+
+.cards-meio {
+    margin-bottom: 4vw;
+}
+
+.cards-esquerda img {
+    width: 25vw;
+    height: auto;
+    margin-left: -8vw;
+}
+
+.cards-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+.cards-direita img[alt="Sapo"] {
+    width: 10vw;
+    height: auto;
+    margin-left: -3vw;
+    margin-bottom: -1vw;
+}
+
+.cards-direita img[alt="Pop_up"] {
+    width: 15vw;
+    height: auto;
+    margin-left: -2vw;
+}
+
+.cards-meio .texto {
+    background: url(Imagens/Pixel_art_balao_fala.png);
+    background-size: 100% 100%;
+    padding: 7vw 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+    margin-bottom: -4vw;
+    margin-top: -5vw;
+    width: 13vw;
+}
+
+.cards-meio .texto h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 1.2vw;
+    font-size: 2vw;
+    font-weight: 100;
+    width: 100vw;
+    margin-bottom: 1vw;
+}
